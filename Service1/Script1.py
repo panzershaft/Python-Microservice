@@ -41,6 +41,5 @@ def script_runner(file_name="default_json.json"):
 if __name__ == '__main__':
     script_runner()
 # while True:
-#         print("This prints once a minute.")
 #         time.sleep(600000)
-print("It ran?")
+print("It ran")
