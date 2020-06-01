@@ -1,0 +1,11 @@
+    {
+      "Name" : "George",
+      "Designation" : "Game Developer",
+      "Salary" : 98000,
+      "Age":27,
+      "Projects" : [
+              {"Topic":"Space wars","Category":"Game application","Months":2},
+              {"Topic":"Attack of the aliens","Category":"Game application","Months":1},
+              {"Topic":"Super racer","Category":"Game application","Months":3}
+      ]
+    }
