@@ -1,0 +1,15 @@
+version: '2'
+services:
+  service1:
+    build: Service1/.
+    links:
+     - service2
+    volumes: 
+     - NewDataVolume:/data_volume1
+  service2:
+    build: Service2/.
+    volumes:
+     - NewDataVolume:/data_volume1
+
+volumes:
+  NewDataVolume:
