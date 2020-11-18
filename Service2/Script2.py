@@ -19,8 +19,7 @@ def script_runner2():
     # write the original file
     with open("decrypted.xml", "wb") as file:
         file.write(decrypted_data)
-
+    print('Yess, I guess one can say that it worked')
 
 if __name__ == '__main__':
     script_runner2()
-print('Yess, I guess one can say that it worked')
