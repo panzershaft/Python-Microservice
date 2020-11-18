@@ -11,5 +11,11 @@ Will contain two services:
 Shell script will be used for automating the docker-containers Deployment
 
 How to execute?
-
+1. Through docker-compose:
+```
+docker-compose up
+```
+2. Through shell script:
+```
 ./runner.sh
+```
