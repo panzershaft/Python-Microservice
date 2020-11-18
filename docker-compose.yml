@@ -1,15 +1,15 @@
-version: '2'
+version: '3'
 services:
   service1:
     build: Service1/.
-    links:
-     - service2
     volumes: 
      - NewDataVolume:/data_volume1
   service2:
     build: Service2/.
     volumes:
      - NewDataVolume:/data_volume1
+    depends_on:
+     - service1
 
 volumes:
   NewDataVolume:
