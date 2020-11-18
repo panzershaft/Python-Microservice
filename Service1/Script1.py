@@ -36,10 +36,12 @@ def script_runner(file_name="default_json.json"):
 
     with open("encrypted_xml.xml", "wb") as file:
         file.write(encrypted_data)
+    print("It ran")
 
 
 if __name__ == '__main__':
     script_runner()
+# This gets used for testing
 # while True:
 #         time.sleep(600000)
-print("It ran")
+
