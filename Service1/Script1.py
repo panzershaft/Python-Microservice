@@ -37,6 +37,8 @@ def script_runner(file_name="default_json.json"):
     with open("encrypted_xml.xml", "wb") as file:
         file.write(encrypted_data)
     print("It ran")
+    print(encrypted_data)
+    return 0
 
 
 if __name__ == '__main__':
