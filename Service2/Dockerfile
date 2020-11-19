@@ -2,6 +2,5 @@
 FROM python:3
 WORKDIR /Service2
 COPY . /Service2
-RUN pip3 install --no-cache-dir -r requirements.txt
-RUN chmod a+x run.sh
+RUN pip3 install --no-cache-dir -r requirements.txt && chmod a+x run.sh
 CMD ["./run.sh"]
