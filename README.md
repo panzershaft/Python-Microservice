@@ -1,5 +1,5 @@
 # Python-Microservice
-An Python microservice using docker containers.
+A Python microservice using docker containers.
 
 Each service will have its own Dockerfile, and they will
 communicate between them.
